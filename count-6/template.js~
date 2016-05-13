@@ -1,0 +1,5 @@
+let arg = process.arg
+let argLower = arg[2].toLowercase()
+
+let tempalte = `Hello, ${arg[2]}!
+Your name lowercase is "${argLower}"`

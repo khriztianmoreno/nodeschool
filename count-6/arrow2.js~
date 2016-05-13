@@ -1,0 +1,7 @@
+var foot = {
+    kick: function () {
+	self = this;
+	setImmediate((self) => console.log(self));
+    }
+};
+foot.kick();

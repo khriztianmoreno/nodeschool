@@ -1,0 +1,2 @@
+var numbers = process.argv[2];
+var max = Math.max(...numbers);
